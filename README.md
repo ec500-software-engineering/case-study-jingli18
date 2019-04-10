@@ -67,7 +67,7 @@ b.	make a patch / pull request for the project to fix problem / add feature
 ## DEMO
 1)	An object detection CNN based on Keras.
 2)	Target objects---- Car and Truck.
-3)	Target EX:
+3)	Target EX:  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/truck.jpg)
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/car.jpg)
   
