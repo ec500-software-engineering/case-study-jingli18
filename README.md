@@ -1,16 +1,19 @@
 # case-study-jingli18
-case-study-jingli18 created by GitHub Classroom
+`Keras`
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/keras.jpeg)
+
 # The Case study summary is in the 'Keras-case-study.docx'
 # The DEMO file is 'KerasTry.py'
----------
 ## DEMO requirments:
 * Python 3.6
 * Tensorflow-1.9
 * Keras
 * Opencv
 * TQDM
-# The DEMO testing results are in the /TestResult folder
-# A tutorial of Keras can be found below:
+## The DEMO testing results are in the /TestResult folder
+## A tutorial of Keras can be found below:
+
+[Click and study!](https://www.datacamp.com/community/tutorials/deep-learning-python?utm_source=adwords_ppc&utm_campaignid=1658343521&utm_adgroupid=63833880615&utm_device=c&utm_keyword=keras&utm_matchtype=p&utm_network=g&utm_adpostion=1t1&utm_creative=319519154322&utm_targetid=aud-299261629654:kwd-295071417107&utm_loc_interest_ms=&utm_loc_physical_ms=9001996&gclid=CjwKCAjwqLblBRBYEiwAV3pCJkyW1QJ0SQ2EzX-33mb-S8egkO0EvWZEMwPdIVmLUPI3Hoe7MiSMLhoCSD8QAvD_BwE)
 
 =========
 # Technology and Platform used for development
@@ -19,6 +22,9 @@ Python.
 I think it will be the same language if should be chosen again. 
 I used python, too. 
 In my opinion, the language choice is a perfect fit. First of all, the function it wants to realize is machine learning (or neural network), which is a bit complex and hard to handle. And python is such a simple and succinct language so that it will make the ML job much more easy to deal with.
+*It is very easy to build a `complex nerual net work`(just like the image below) by keras.
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/NN.png)
+
 ### b.	What build system is used (e.g. Bazel, CMake, Meson)? What build tools / environment are needed to build (e.g. does it require Visual Studio or just GCC or ?)
 It just built in python. It can work well if you use Python 2.7-3.6. Just the same advantage with the last question----easy to use.
 ### c.	What frameworks / libraries are used in the project? At least one of these projects don’t use any external libraries or explicit threading, yet is noted for being the fastest in its category--in that case, what intrinsic language techniques is it using to get this speed. 
@@ -26,7 +32,6 @@ Keras used Tensorflow as the backup. It can also call help from Theano and CNTK.
 By those powerful frameworks and huge libraries, Keras can finish machine learning jobs well.
 
 # Testing: describe unit/integration/module tests and the test framework
----------
 ### a.	How are they ensuring the testing is meaningful? Do they have code coverage metrics for example?
 They use the ‘coveragerc’ file to ensuring the testing quality.
 ### b.	What CI platform(s) are they using (e.g. Travis-CI, AppVeyor)?
@@ -36,7 +41,6 @@ Test Contents: Dataset, Image Data Task, Tensorflow Integration, Keras Funcitona
 Windows 10, Linux, Mac.
 
 # Software architecture
---------
 ### a.	How would you add / edit functionality if you wanted to? How would one use this project from external projects, or is it only usable as a standalone program?
 I need to install Tensorflow and Keras and other libraries it needed. Then I just write a python file to import those libs and build a CNN. It was built to be used at any external projects, conveniently.
 ### b.	What parts of the software are asynchronous (if any)?
