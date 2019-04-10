@@ -22,8 +22,10 @@ Python.
 I think it will be the same language if should be chosen again. 
 I used python, too. 
 In my opinion, the language choice is a perfect fit. First of all, the function it wants to realize is machine learning (or neural network), which is a bit complex and hard to handle. And python is such a simple and succinct language so that it will make the ML job much more easy to deal with.
-*It is very easy to build a `complex nerual net work`(just like the image below) by keras.
-![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/NN.png)
+*It is very easy to build a `complex nerual network`(just like the image below) by keras.
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/NN.png)  
+
+[*Hit me and learn more about Nural Netword*](https://en.wikipedia.org/wiki/Artificial_neural_network)
 
 ### b.	What build system is used (e.g. Bazel, CMake, Meson)? What build tools / environment are needed to build (e.g. does it require Visual Studio or just GCC or ?)
 It just built in python. It can work well if you use Python 2.7-3.6. Just the same advantage with the last question----easy to use.
