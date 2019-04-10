@@ -1,7 +1,7 @@
 # case-study-jingli18
 `Keras`  
   
-![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/keras.jpeg)
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/keras.jpg)
 
 # The Case study summary is in the 'Keras-case-study.docx'
 # The DEMO file is 'KerasTry.py'
