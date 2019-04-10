@@ -2,6 +2,7 @@
 case-study-jingli18 created by GitHub Classroom
 # The Case study summary is in the 'Keras-case-study.docx'
 # The DEMO file is 'KerasTry.py'
+---------
 ## DEMO requirments:
 * Python 3.6
 * Tensorflow-1.9
@@ -9,8 +10,9 @@ case-study-jingli18 created by GitHub Classroom
 * Opencv
 * TQDM
 # The DEMO testing results are in the /TestResult folder
+# A tutorial of Keras can be found below:
 
-
+=========
 # Technology and Platform used for development
 ### a.	What coding languages are used? Do you think the same languages would be used if the project was started today? What languages would you use for the project if starting it today?
 Python.
@@ -24,6 +26,7 @@ Keras used Tensorflow as the backup. It can also call help from Theano and CNTK.
 By those powerful frameworks and huge libraries, Keras can finish machine learning jobs well.
 
 # Testing: describe unit/integration/module tests and the test framework
+---------
 ### a.	How are they ensuring the testing is meaningful? Do they have code coverage metrics for example?
 They use the ‘coveragerc’ file to ensuring the testing quality.
 ### b.	What CI platform(s) are they using (e.g. Travis-CI, AppVeyor)?
@@ -33,6 +36,7 @@ Test Contents: Dataset, Image Data Task, Tensorflow Integration, Keras Funcitona
 Windows 10, Linux, Mac.
 
 # Software architecture
+--------
 ### a.	How would you add / edit functionality if you wanted to? How would one use this project from external projects, or is it only usable as a standalone program?
 I need to install Tensorflow and Keras and other libraries it needed. Then I just write a python file to import those libs and build a CNN. It was built to be used at any external projects, conveniently.
 ### b.	What parts of the software are asynchronous (if any)?
@@ -49,7 +53,9 @@ All the Keras does are Call Frameworks (TF of Theano of CNTK) and define some fu
 # Analyze two defects in the project
 a.	Does the issue require an architecture change, or is it just adding a new function or?
 b.	make a patch / pull request for the project to fix problem / add feature
+
 # Demonstration application of the system
+---------
 ## DEMO
 1)	An object detection CNN based on Keras.
 2)	Target objects---- Car and Truck.
