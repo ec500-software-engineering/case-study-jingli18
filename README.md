@@ -16,7 +16,6 @@
 
 [Click and study!](https://www.datacamp.com/community/tutorials/deep-learning-python?utm_source=adwords_ppc&utm_campaignid=1658343521&utm_adgroupid=63833880615&utm_device=c&utm_keyword=keras&utm_matchtype=p&utm_network=g&utm_adpostion=1t1&utm_creative=319519154322&utm_targetid=aud-299261629654:kwd-295071417107&utm_loc_interest_ms=&utm_loc_physical_ms=9001996&gclid=CjwKCAjwqLblBRBYEiwAV3pCJkyW1QJ0SQ2EzX-33mb-S8egkO0EvWZEMwPdIVmLUPI3Hoe7MiSMLhoCSD8QAvD_BwE)
 
-=========
 # Technology and Platform used for development
 ### a.	What coding languages are used? Do you think the same languages would be used if the project was started today? What languages would you use for the project if starting it today?
 Python.
