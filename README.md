@@ -1,5 +1,6 @@
 # case-study-jingli18
-`Keras`
+`Keras`  
+  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/keras.jpeg)
 
 # The Case study summary is in the 'Keras-case-study.docx'
