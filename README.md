@@ -71,10 +71,15 @@ b.	make a patch / pull request for the project to fix problem / add feature
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/truck.jpg)
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/car.jpg)
   
-4)	Importing to use Keras:
-![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/import.png)
+4)	Importing to use Keras:  
+```python
+from keras.models import Sequential
+from keras.layers import *
+from keras.optimizers import *
+from keras.callbacks import TensorBoard
+```
 
-5)	CNN building : 
+5)	CNN building :   
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/CNN.jpg)
 
 6)	Model Graph: (Full image is in the /TestResult folder)
