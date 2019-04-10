@@ -39,7 +39,7 @@ By those powerful frameworks and huge libraries, Keras can finish machine learni
 ### a.	How are they ensuring the testing is meaningful? Do they have code coverage metrics for example?
 They use the ‘coveragerc’ file to ensuring the testing quality.
 ### b.	What CI platform(s) are they using (e.g. Travis-CI, AppVeyor)?
-Travis-CI.
+Travis-CI.  
 Test Contents: Dataset, Image Data Task, Tensorflow Integration, Keras Funcitonal, Backend, Engine, Layer, Legacy, Utils, Wrapper, Multiprocessing.
 ### c.	What computing platform combinations are tested on their CI? E.g. Windows 10, Cygwin, Linux, Mac, GCC, Clang
 Windows 10, Linux, Mac.
@@ -98,7 +98,7 @@ model.compile(optimizer = optimizer, loss = 'categorical_crossentropy', metrics 
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/model.jpg)
 
 
-7)	Testing result:
+7)	Testing result:  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/TestResult/Accuracy.png)
 
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/TestResult/Loss.png)
