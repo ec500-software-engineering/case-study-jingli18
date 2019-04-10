@@ -9,3 +9,60 @@ case-study-jingli18 created by GitHub Classroom
 * Opencv
 * TQDM
 # The DEMO testing results are in the /TestResult folder
+
+
+# Technology and Platform used for development
+## a.	What coding languages are used? Do you think the same languages would be used if the project was started today? What languages would you use for the project if starting it today?
+Python.
+I think it will be the same language if should be chosen again. 
+I used python, too. 
+In my opinion, the language choice is a perfect fit. First of all, the function it wants to realize is machine learning (or neural network), which is a bit complex and hard to handle. And python is such a simple and succinct language so that it will make the ML job much more easy to deal with.
+## b.	What build system is used (e.g. Bazel, CMake, Meson)? What build tools / environment are needed to build (e.g. does it require Visual Studio or just GCC or ?)
+It just built in python. It can work well if you use Python 2.7-3.6. Just the same advantage with the last question----easy to use.
+## c.	What frameworks / libraries are used in the project? At least one of these projects don’t use any external libraries or explicit threading, yet is noted for being the fastest in its category--in that case, what intrinsic language techniques is it using to get this speed. 
+Keras used Tensorflow as the backup. It can also call help from Theano and CNTK. 
+By those powerful frameworks and huge libraries, Keras can finish machine learning jobs well.
+
+# Testing: describe unit/integration/module tests and the test framework
+## a.	How are they ensuring the testing is meaningful? Do they have code coverage metrics for example?
+They use the ‘coveragerc’ file to ensuring the testing quality.
+## b.	What CI platform(s) are they using (e.g. Travis-CI, AppVeyor)?
+Travis-CI.
+Test Contents: Dataset, Image Data Task, Tensorflow Integration, Keras Funcitonal, Backend, Engine, Layer, Legacy, Utils, Wrapper, Multiprocessing.
+## c.	What computing platform combinations are tested on their CI? E.g. Windows 10, Cygwin, Linux, Mac, GCC, Clang
+Windows 10, Linux, Mac.
+
+# Software architecture
+## a.	How would you add / edit functionality if you wanted to? How would one use this project from external projects, or is it only usable as a standalone program?
+I need to install Tensorflow and Keras and other libraries it needed. Then I just write a python file to import those libs and build a CNN. It was built to be used at any external projects, conveniently.
+## b.	What parts of the software are asynchronous (if any)?
+In my opinion, Keras works as a data flow, linearly.
+From the Model defining to tensor generating, to network building, to training. One by one.
+## c.	Please make diagrams as appropriate for your explanation
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/diagram.jpg)
+d.	How are separation of concerns and information hiding handled?
+
+e.	What architectural patterns are used?
+It is a combination of Pipe-filter pattern and Layered Pattern.
+f.	Does the project lean more towards object oriented or functional components
+
+All the Keras does are Call Frameworks (TF of Theano of CNTK) and define some functions---- Activation function, loss function, callback function and so on. In my opinion it is more like functional components.
+Analyze two defects in the project
+a.	Does the issue require an architecture change, or is it just adding a new function or?
+b.	make a patch / pull request for the project to fix problem / add feature
+Demonstration application of the system
+DEMO
+1)	An object detection CNN based on Keras.
+2)	Target objects---- Car and Truck.
+3)	Target EX:
+  
+4)	Importing to use Keras:
+ 
+5)	CNN building : 
+6)	Model Graph: (Full image is in the /TestResult folder)
+ 
+
+7)	Testing result:
+  
+
+
