@@ -3,7 +3,7 @@
   
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/keras.jpg)
 
-[Official Documents of Keras can be found here.](https://keras.io/)
+[Official Documents of Keras can be found here.](https://keras.io/)  
 [GitHub address of Keras](https://github.com/keras-team/keras)
 # The Case study summary is in the 'Keras-case-study.docx'
 # The DEMO file is 'KerasTry.py'
