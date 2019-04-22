@@ -80,6 +80,7 @@ from keras.callbacks import TensorBoard
 ```
 
 ### 5)	CNN building :  
+#### One line for one layer, just specifies the parameters.
 
 >a. Convolutional and maxpooling layers building  
 ```python
