@@ -120,11 +120,7 @@ model.compile(optimizer = optimizer, loss = 'categorical_crossentropy', metrics 
 >>![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/adam.png)  
 
 ### 6)	Model Graph: (Full image is in the /TestResult folder)  
-![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/model.jpg)
-
-#### Text model-net:
-![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/text_net.png)  
-
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/model.jpg)  
 
 ### 7)	Testing result:  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/TestResult/Accuracy.png)
