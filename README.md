@@ -65,13 +65,13 @@ b.	make a patch / pull request for the project to fix problem / add feature
 # Demonstration application of the system
 ---------
 ## DEMO
-1)	An object detection CNN based on Keras.
-2)	Target objects---- Car and Truck.
-3)	Target EX:  
+### 1)	An object detection CNN based on Keras.
+### 2)	Target objects---- Car and Truck.
+### 3)	Target EX:  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/truck.jpg)
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/car.jpg)
   
-4)	Importing to use Keras:  
+### 4)	Importing to use Keras:  
 ```python
 from keras.models import Sequential
 from keras.layers import *
@@ -79,7 +79,7 @@ from keras.optimizers import *
 from keras.callbacks import TensorBoard
 ```
 
-5)	CNN building :  
+### 5)	CNN building :  
 
 >a. Convolutional and maxpooling layers building  
 ```python
@@ -116,11 +116,11 @@ model.compile(optimizer = optimizer, loss = 'categorical_crossentropy', metrics 
 >>* The adam optimizer:
 >>![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/adam.png)  
 
-6)	Model Graph: (Full image is in the /TestResult folder)  
+### 6)	Model Graph: (Full image is in the /TestResult folder)  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/model.jpg)
 
 
-7)	Testing result:  
+### 7)	Testing result:  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/TestResult/Accuracy.png)
 
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/TestResult/Loss.png)
