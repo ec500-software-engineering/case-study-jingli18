@@ -67,7 +67,7 @@ b.	make a patch / pull request for the project to fix problem / add feature
 ## DEMO
 1)	An object detection CNN based on Keras.
 2)	Target objects---- Car and Truck.
-3)	Target EX:
+3)	Target EX:  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/truck.jpg)
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/car.jpg)
   
@@ -80,20 +80,41 @@ from keras.callbacks import TensorBoard
 ```
 
 5)	CNN building :  
-* Convolutional layer building
+a. Convolutional and maxpooling layers building  
 ```python
 model = Sequential()
-
 model.add(InputLayer(input_shape = [64, 64, 1]))
 model.add(Conv2D(filters=32, kernel_size = 5, strides = 1, padding = 'same', activation = 'relu'))
+```  
+
+* The first convolutional layer will be built like this:  
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/first_layer.png)  
+
+```python
 model.add(MaxPool2D(pool_size = 5, padding = 'same'))
 ```
-* Output layer building
+
+* The maxPooling layer will be built:  
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/maxpool.png)  
+
+b. Dropout realization
+```python
+model.add(Dropout(0.25))
+```
+* the dropout code is super easy, but let us have a look at the real dropout layer:  
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/dropout.png)  
+Which I think is one of the great things that Keras provide!  
+
+c. Output layer building  
 ```python
 model.add(Dense(2, activation = 'softmax'))
 optimizer = Adam(lr = 1e-3)
 model.compile(optimizer = optimizer, loss = 'categorical_crossentropy', metrics = ['accuracy'])
-```
+```  
+
+* The adam optimizer:
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/adam.png)  
+
 6)	Model Graph: (Full image is in the /TestResult folder)  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/model.jpg)
 
