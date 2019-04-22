@@ -91,6 +91,8 @@ model.add(Conv2D(filters=32, kernel_size = 5, strides = 1, padding = 'same', act
 >>* The first convolutional layer will be built like this:  
 >>![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/first_layer.png)  
 
+>For the maxpooling layer, pooling's purpose is to reduce the number of parameters to boost compute speed and reduce the computing complexity; Max is a good way to do the pooling, it will make the super-features bigger while the average-pooling will make the features vaguer.  
+ 
 ```python
 model.add(MaxPool2D(pool_size = 5, padding = 'same'))
 ```
@@ -102,11 +104,12 @@ model.add(MaxPool2D(pool_size = 5, padding = 'same'))
 ```python
 model.add(Dropout(0.25))
 ```
->>* the dropout code is super easy, but let us have a look at the real dropout layer:  
+>>* the dropout code is super easy, basically it just selects and makes some neural 'sleep' for this iteration randomly to deal with the overfitting problem, but let us have a look at the real dropout layer:  
 >>![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/dropout.png)  
 >>Which I think is one of the great things that Keras provide!  
 
 >c. Output layer building  
+>This layer basicly use a softmax function to get the probabilities of each image belongs to each class(Car or Truck). Then, it will use the real label data to calculate the accuracy and loss. What's more, it will choose a optimizer to do the gradient descent back propogation, which I select the Adam.  
 ```python
 model.add(Dense(2, activation = 'softmax'))
 optimizer = Adam(lr = 1e-3)
@@ -118,6 +121,9 @@ model.compile(optimizer = optimizer, loss = 'categorical_crossentropy', metrics 
 
 ### 6)	Model Graph: (Full image is in the /TestResult folder)  
 ![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/model.jpg)
+
+#### Text model-net:
+![image](https://github.com/ec500-software-engineering/case-study-jingli18/raw/master/images/text_net.png)  
 
 
 ### 7)	Testing result:  
